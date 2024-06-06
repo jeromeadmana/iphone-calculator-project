@@ -1,0 +1,11 @@
+.calculator-button {
+    border-radius: 50px;
+    margin: 5px;
+    font-size: 1.5rem;
+    color: #fff;
+  
+    &.zero {
+      flex: 0 0 48%;
+    }
+  }
+  

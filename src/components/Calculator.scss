@@ -1,0 +1,32 @@
+.calculator {
+    .display {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+  
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .calculator-button {
+      flex: 1 0 21%; // Adjust button width
+      margin: 5px;
+      height: 60px;
+      font-size: 1.5rem;
+      color: #fff;
+  
+      &.number {
+        background-color: #333;
+      }
+  
+      &.operator {
+        background-color: #f5913e;
+      }
+  
+      &.zero {
+        flex: 1 0 48%; // Zero button double width
+      }
+    }
+  }
+  
